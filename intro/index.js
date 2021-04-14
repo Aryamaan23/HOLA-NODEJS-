@@ -1,5 +1,9 @@
 console.log('Hello From Node.js...');
 
-const person=require('./person');
+const Person=require('./person');
 
-console.log(person)
+//console.log(person)
+
+const person1=new Person('Aryamaan Pandey',30)
+
+person1.greeting();
